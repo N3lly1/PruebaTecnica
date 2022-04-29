@@ -1,0 +1,15 @@
+{
+    "cart":{
+        "sauceLabBackback": "Sauce Labs Backpack",
+        "sauceLabBackbackDescription": "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.",
+        "sauceLabBackbackPrice": "$29.99",
+        "sauceLabsFleeceJacket": "Sauce Labs Fleece Jacket",
+        "sauceLabsFleeceJacketDescription": "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.",
+        "sauceLabsFleeceJacketPrice": "$49.99"    
+    },
+    "checkout":{
+        "postalCodeError": "Error: Postal Code is required",
+        "thankYouForYourOrder": "HANK YOU FOR YOUR ORDER",
+        "thankYouForYourOrderDescription": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+    }
+}

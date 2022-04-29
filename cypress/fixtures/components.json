@@ -1,0 +1,34 @@
+{
+    "inputs": { 
+        "userName": "[data-test='username']",
+        "password": "[data-test='password']",
+        "firstName": "[data-test='firstName']",
+        "lastName": "[data-test='lastName']",
+        "postalCode": "[data-test='postalCode']"
+    },
+    "buttons": {
+        "login": "[data-test='login-button']",
+        "sauceLabBackback": "[data-test='add-to-cart-sauce-labs-backpack']",
+        "sauceLabsFleeceJacket": "[data-test='add-to-cart-sauce-labs-fleece-jacket']",
+        "shopping": ".shopping_cart_link",
+        "remove": "[data-test='remove-sauce-labs-fleece-jacket']",
+        "checkout": "[data-test='checkout']",
+        "continue": "[data-test='continue']",
+        "finish": "[data-test='finish']",
+        "backHome": "[data-test='back-to-products']"
+    },
+    "texts":{
+        "sauceLabBackback": "#item_4_title_link > .inventory_item_name",
+        "sauceLabBackbackDescription": ":nth-child(3) > .cart_item_label > .inventory_item_desc",
+        "sauceLabBackbackPrice": ":nth-child(3) > .cart_item_label > .item_pricebar > .inventory_item_price",
+        "sauceLabsFleeceJacket": "#item_5_title_link > .inventory_item_name",
+        "sauceLabsFleeceJacketDescription": ":nth-child(4) > .cart_item_label > .inventory_item_desc",
+        "sauceLabsFleeceJacketPrice": ":nth-child(4) > .cart_item_label > .item_pricebar > .inventory_item_price",
+        "postalCodeError": "[data-test='error']",
+        "thankYouForYourOrder": ".complete-header",
+        "thankYouForYourOrderDescription": ".complete-text"
+    },
+    "containers":{
+        "error": ".error-message-container" 
+    }
+}

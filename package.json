@@ -1,0 +1,21 @@
+{
+  "name": "prueba-tencnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "runHeadless": "./node_modules/.bin/cypress run --headless --browser chrome",
+    "cy:run": "cypress --headless run --browser chrome"
+  },
+  "author": "Nelly",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "cypress-mochawesome-reporter": "^3.0.1",
+    "typescript": "^4.6.3",
+    "typescript-cypress": "^1.0.5"
+  }
+}
